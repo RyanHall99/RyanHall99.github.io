@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.shoe-logo{
+    width: 50px;
+    cursor: pointer;
+    margin: 50px 0;
+}
+.menu-button{
+    width: 30px;
+    cursor: pointer;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 3%;
+    padding-right: 3%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.navigationbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom:1px solid #CCC;
+    padding-bottom:1px;
+}
+.intro{
+    display: flex;
+    text-align: center;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 100px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+nav ul li a:hover{
+    color: red;
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+}
+.row2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+}
+.col1{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 50px;
+}
+.col1 h3{
+    font-size: 54px;
+}
+.col2{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 85px;
+}
+.col2 h3{
+    font-size: 54px;
+}
+.col3{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 90px;
+}
+.col3 h3{
+    font-size: 54px;
+}
+.col4{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 50px;
+}
+.col4 h3{
+    font-size: 54px;
+}
+.col5{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 80px;
+}
+.col5 h3{
+    font-size: 54px;
+}
+.col6{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 90px;
+}
+.col6 h3{
+    font-size: 54px;
+}
+button{
+    width: 120px;
+    border: 0;
+    padding: 7px 10px;
+    outline: none;
+    color: grey ;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover{
+    color: red;
+}
+.shoe-images{
+    width: 200px;
+}
+
+@media only screen and (max-width:700px){
+    nav ul{
+        width: 100%;
+        background: grey;
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+    }
+    nav ul li{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        color: grey;
+    }
+}
